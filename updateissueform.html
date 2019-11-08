@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PUBLIC_NUISANCE_REPORTING_SYSTEM</title>
+    </head>
+    <body>
+        <h1>UPDATE YOUR WRONG ISSUE INFO</h1>
+        <br>
+        <h4>USER ID</h4>
+        <input type="text" name="user_id" value="104"  readonly="readonly">
+        <br>
+        <h4>Issue ID</h4>
+        <input type="text" name="user_id" value="11" readonly="readonly">
+        <br>
+        <br>
+        <form action="EditIssue" method="GET">
+            <select name="issue_type" value="" >
+                <option value="Transport">TRANSPORT</option>
+
+                <option value="Water">WATER</option>
+     
+                <option value="Power">POWER</option>
+     
+                <option value="Other">OTHER</option>
+     
+            </select>
+             <br>    
+             <h4>DESCRIPTION</h4>
+       <textarea name="issue_description" cols="20" rows="6">Hi this is HY</textarea>
+        <br>
+        <h4>ISSUE LOCATION</h4>
+        <input type="text" name="issue_location" value="">
+        <br>
+        <h4>REPORT DATE</h4>
+        <input type="date" name="report_date" value="2019-02-05">
+        <br>
+
+    </form>
+
+        </body>
+        </html>
